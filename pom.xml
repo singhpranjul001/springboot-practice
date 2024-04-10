@@ -14,11 +14,13 @@
 	<name>springboot-practice</name>
 	<description>Practice project for Spring Boot</description>
 	<dependencies>
+
 		<!--Add support for Spring-Boot Dev-tools for automatic reloading of the page.-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+
 		<!--Add support for Spring-Boot Actuator-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -28,6 +30,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!--Add support for Spring Security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>
